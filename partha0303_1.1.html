@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="input">INPUT-</label>
+    <input id="partha" type="text" placeholder=""><br><br>
+    <label for="input">INPUT 1-</label>
+    <input id="partha1" type="text" placeholder=""><br><br>
+    <label for="input">INPUT 2-</label>
+    <input id="partha3" type="text" placeholder=""><br><br>
+    <button type="button" onclick="buttonclick()">SHOW/RETURN</button><br><br>
+
+    <script>
+        function buttonclick()
+        {
+            var x=parseInt(document.getElementById('partha').value)
+            var y=x*x
+            alert(y)
+
+            var n=document.getElementById('partha1').value
+            var o='hello'+n
+            alert(o)
+
+            var p = document.getElementById('partha3').value;
+            if(p==Boolean)
+            {
+                alert(p);
+            }
+            else{
+                alert(p);
+            }
+    }
+    </script>
+</body>
+</html>

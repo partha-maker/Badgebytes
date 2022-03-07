@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<p id="demo"></p>
+<body>
+    <script>
+        var n=5
+         var String="";
+        for(var i=1;i<=n;i++)
+        {
+            
+            for(var j=n; j>i;j--)
+            {
+                String +=" ";
+            }
+            for(k=0;k<2*i-1;k++)
+            {
+                String+="*"
+            }
+            String+="<br>"
+            
+        }
+        document.write(`<pre>${String}</pre>`)
+        var person1={
+            firstname:'happy',
+            lastname:'swain babu',
+            fullname1:function()
+            {
+                return this.firstname
+            }
+        }
+        
+
+        var person={
+            firstname:'partha',
+            lastname:'mohanty',
+            eyecolor:'blue',
+            fullname: function()
+        {
+           return this.firstname+" "+this.lastname+" "+this.eyecolor
+        }
+        }
+
+        var job={
+            jobtitle:'Developer',
+            location:'BBSR'
+        }
+        
+        var employee={
+           ...person,
+           ...job
+
+        }
+        alert(person.fullname())
+        alert(person1.fullname1()
+        )
+
+        
+        
+    </script>
+</body>
+</html>

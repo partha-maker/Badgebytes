@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    function buttonclick()
+    {
+    var name= document.getElementById("user").value;//"badebytes";
+    var Password=document.getElementById("pass").value;
+    if(name=="badebytes" && Password=="Password123")
+    {
+        alert("Login sucessful")
+    }
+    else{
+        alert("Invalid user")
+    }
+}
+
+</script>
+
+<style>
+    body{
+        background-image: url("download.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .center{
+        text-align: center;
+        padding-top: 20%;
+        color: rgb(8, 9, 119);
+        font-size: 25px;
+     }
+
+    #pass{
+        text-align: center;
+        color: rgb(8, 9, 119);
+        font-size: 25px
+    }
+
+    .butt{
+        text-align: center;
+        
+    }
+</style>
+<body>
+    <form>
+     <div class="center"> <label for="username">username:</label>
+      <input  id="user" type="text" placeholder="Enter Username" name="uname" required><br><br><br></div>
+     <div>
+        <label>pasword:</label>
+        <input id="pass" type="text" placeholder="Enter pasword" name="passw" required><br><br>
+     </div> 
+
+     <div class="butt">
+        <button onclick=buttonclick()>Login</button>
+     </div>
+    </form>
+
+      
+</body>
+</html>

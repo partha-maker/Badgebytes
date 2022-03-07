@@ -1,0 +1,164 @@
+button{
+    float: right;
+    margin-top: 8%;
+    margin-right: 5%;
+    background-color: #008cba;
+    font-size: 22px;
+    color: rgb(19, 1, 1);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#heading1{
+    padding-top: 5%;
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+#paragraph1{
+    font-size: 15px;
+    font-weight: bold;
+    width: 60%;
+    padding-left: 20%;
+    color: blueviolet;
+}
+
+h2{
+    color: rgb(58, 47, 201);
+    font-size: 25px;
+    padding-left: 20%;
+    
+}
+
+#para2{
+    width: 50%;
+    padding-left: 20%;
+    color: blueviolet;
+}
+
+.dot{
+  height: 90px;
+  width: 90px;
+  background-color: rgb(9, 99, 173);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 50%;
+}
+
+#para3{
+    width: 40%;
+    float: right;
+    color: blueviolet;
+    margin-right: 2%;
+}
+#head2{
+    float: right;
+    margin-right: 22%;
+    text-align: justify;
+    /* top: 30%; */
+}
+
+.vertical{
+    border-left: 3px solid green;
+    height: 200px;
+    position: absolute;
+    left: 53%;
+    top: 95%;
+}
+#para4{
+    width: 30%;
+    color: blueviolet;
+    margin-left: 60%;
+}
+
+.dot2{
+  height: 90px;
+  width: 90px;
+  background-color: rgb(9, 99, 173);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 1%;
+}
+
+#para5{
+    margin-left: 25%;
+    width: 30%;
+    padding-top: -30%;
+}
+
+#head3{
+    margin-left: 12%;
+    word-spacing: normal;
+}
+
+#para6{
+    margin-left: 22%;
+    width: 30%;
+    padding-top: -30%;
+}
+
+#sec{
+    background-color: bisque;
+    height: 600px;
+    width: 1530x;
+    border-radius: 0.5%;
+}
+
+.dot3{
+  height: 90px;
+  width: 90px;
+  background-color: rgb(12, 30, 44);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#head4{
+    margin-left: 20%;
+    color: blue;
+}
+
+#para7{
+    width: 50%;
+    margin-left: 20%;
+    color: blueviolet; 
+}
+
+.dot4{
+  height: 90px;
+  width: 90px;
+  background-color: rgb(12, 30, 44);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10%;
+  /* margin-top: 5%; */
+}
+
+/* #division1{ */
+    /* border: 2px solid red; */
+
+
+#head5{
+    margin-left: 20%;
+    color: blue;
+}
+
+#para8{
+    color: blueviolet;
+    width: 50%;
+    margin-left: 20%;
+    padding-bottom: 20%;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+#inpu{
+    margin-left: 44%;
+
+}

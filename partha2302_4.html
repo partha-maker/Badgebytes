@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="input1">celsius :-</label>
+    <input id="cel" type="text" placeholder=""><br><br>
+    <label for="input2">Fahrenheit:-</label>
+    <input id="far" type="text" placeholder=""><br><br>
+    <button type="button" onclick="convert()" >Convert</button>
+    <button id="clr" type="button" onclick="Clear()">Clear</button>
+
+    <script>
+        function convert()
+        {
+            var cal=document.getElementById('cel').value;
+            var far=document.getElementById('far').value;
+            var result=(cal*9/5)+32
+            document.getElementById('far').value=result;
+        }
+        function Clear()
+            {
+                document.getElementById('clr')
+                for(clr of clr)
+                {
+                    clr.value='';
+                }
+            }
+
+    </script>
+
+</body>
+</html>

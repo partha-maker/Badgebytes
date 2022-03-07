@@ -1,0 +1,15 @@
+.butt{
+    float: right;
+    color: blue;
+   margin-right: 30%;
+}
+.inpu{
+    color: rgb(27, 3, 94);
+    padding-left: 32%;
+}
+
+.order{
+    margin-top: 20%;
+    margin-left: 30%;
+    color: rgb(26, 8, 190);
+}
